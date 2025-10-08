@@ -14,9 +14,176 @@
     />
 
     <title>Bootstrap projekt</title>
+    <style>
+      section{
+        padding: 60px 0;
+      }
+    </style>
   </head>
   <body>
-    <h1>Bootstrap projekt</h1>
+
+<nav class="navbar navbar-expand-md navbar-light">
+  <div class="container-xxl">
+<a href="#intro" class="navbar-brand">
+  <span class="fw-bold text-secondary">
+    <i class="bi bi-basket2"></i>
+    Net ninja pro - the book</span>
+</a>
+ <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+ data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+ aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+
+ </button>
+<div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#topics">About The Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Get in Touch</a>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item ms-2 d-none d-md-inline">
+            <a class="btn btn-secondary" href="#pricing">buy now</a>
+          </li>
+          
+        </ul>
+      </div>
+
+
+
+
+
+
+  </div> 
+</nav>
+
+
+
+
+
+
+
+
+<section id="intro">
+<div class="container-lg">
+<div class="row justify-content-center align-items-center">
+<div class="col-md-5 text-center text-md-start">
+<h1>
+  <div class="display-2">Black-Belt</div>
+  <div class="display-5 text-muted">Your coding skills</div>
+</h1>
+<p class="lead my-4 text-muted">Lorem ipsum dolor sit amet.</p>
+<a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+
+<!--OFFCANVAS -->
+<a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+            Explore my other books
+          </a>
+        </div>
+        <div class="col-md-5 text-center d-none d-md-block">
+<!--OFFCANVAS -->
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+<div class="col-md-5 text-center d-none d-md-block">
+  <span class="tt" data-bs-placement="top" title="Net ninja">
+<img class="img-fluid" src="/assets/ebook-cover.png" alt="E-book cover">
+
+
+  </span>
+  </div>
+</div>
+</div>
+</section>
+
+<section id="pricing" class="bg-light mt-5">
+<div class="container-lg">
+<div class="text-center">
+<h2>Pricing plans</h2>
+<p class="lead text-muted">Choose a pricing plan to suit you</p>
+</div>
+<div class="row my-5 align-items-center justify-content-center g-0">
+<div class="col-8 col-lg-4 col-xl-3">
+  <div class="card border-0">
+    <div class="card-body text-center py-4">
+      <h4 class="card-title">Starter edition</h4>
+      <p class="lead card-subtitle">eBook download only</p>
+    <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+    <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy now</a>
+  
+  
+  </div>
+  </div>
+</div>
+<div class="col-9 col-lg-4">
+          <div class="card border-primary border-2">
+            <div class="card-header text-center text-primary">Most Popular</div>
+            <div class="card-body text-center py-5">
+              <h4 class="card-title">Complete Edition</h4>
+              <p class="lead card-subtitle">eBook download & all updates</p>
+              <p class="display-4 my-4 text-primary fw-bold">$18.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Ultimate Edition</h4>
+              <p class="lead card-subtitle">download, updates & extras</p>
+              <p class="display-5 my-4 text-primary fw-bold">$24.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+</div>
+ 
+</div>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
     <!-- lesson 11 acordion teooria 2-7, 19 enda muuta -->
     <section id="topics">
       <div class="container-md">
@@ -187,6 +354,225 @@
       </div>
     </section>
     <!--Lesson 11 acordion-->
+<section id="reviews" class="bg-light">
+<div class="container-lg">
+  <div class="text-center">
+  <h2><i class="bi bi-binoculars"></i>Book Reviews</h2>
+  <p class="lead"> What my students have said about the book...</p>
+</div>
+
+<div class="row justify-content-center my-5">
+<div class="col-lg-8">
+<div class="list-group">
+  <div class="list-group-item py-3"> 
+    <div class="pb-2">
+<i class="bi bi-battery-full"></i>
+<i class="bi bi-battery-full"></i>
+<i class="bi bi-battery-low"></i>
+<i class="bi bi-battery"></i>
+<i class="bi bi-battery"></i>
+
+    </div>
+    <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+  <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, similique.</p>
+  <small>Review by Mario</small>
+  </div>
+</div>
+<div class="list-group">
+  <div class="list-group-item py-3"> 
+    <div class="pb-2">
+<i class="bi bi-battery-full"></i>
+<i class="bi bi-battery-half"></i>
+<i class="bi bi-battery"></i>
+<i class="bi bi-battery"></i>
+<i class="bi bi-battery"></i>
+
+    </div>
+    <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+  <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, similique.</p>
+  <small>Review by Mario</small>
+  </div>
+</div>
+<div class="list-group">
+  <div class="list-group-item py-3">
+    <div class="pb-2">
+<i class="bi bi-battery-full"></i>
+<i class="bi bi-battery-full"></i>
+<i class="bi bi-battery-full"></i>
+<i class="bi bi-battery-low"></i>
+<i class="bi bi-battery"></i>
+
+    </div> 
+    <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+  <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, similique.</p>
+  <small>Review by Mario</small>
+  </div>
+</div>
+<div class="list-group">
+  <div class="list-group-item py-3">
+    <div class="pb-2">
+<i class="bi bi-battery-full"></i>
+<i class="bi bi-battery-full"></i>
+<i class="bi bi-battery-full"></i>
+<i class="bi bi-battery-full"></i>
+<i class="bi bi-battery-half"></i>
+
+    </div> 
+    <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+  <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, similique.</p>
+  <small>Review by Mario</small>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container-gl">
+<div class="text-center">
+<h2>Get in touch</h2>
+<p class="lead">Questions to ask? Fill out the form</p>
+</div>
+<div class="row justify-content-center my-5">
+
+  <div class="col-lg-6">
+    <form >
+<label for="email" class="form-label">Email address:</label>
+<div class="mb-4 input-group">
+
+  <span class="input-group-text">
+   <i class="bi bi-globe2"></i> 
+  </span>
+<input type="email" class="form-control" id="email" placeholder="e.g.mario@example.com">
+<span class="input-group-text">
+  <span class="tt" data-bs-placement="left" title="Enter an email address">
+   <i class="bi bi-android text-muted"></i> 
+   </span>
+  </span>
+
+
+</div>
+<label for="name" class="form-label">Name:</label>
+<div class="input-group mb-4">
+  <input type="text" class="form-control" itemid="name" placeholder="e.g. Mario">
+
+<span class="input-group-text">
+  <span class="tt" data-bs-placement="right" title="Pretty self explanatory">
+   <i class="bi bi-arrow-up-left-square text-muted"></i> 
+   </span>
+  </span>
+
+
+
+  <span class="input-group-text">
+    <i class="bi bi-person-raised-hand"></i>
+  </span>
+</div>
+
+<label for="subject" class="form-label">What is your question about?</label>
+<div class="input-group mb-4">
+  <span class="input-group-text">
+    <i class="bi bi-question-diamond"></i>
+  </span>
+<select class="form-select" id="subject">
+<option value="pricing" selected>Pricing query</option>
+<option value="content" >Content query</option>
+<option value="other">Other query</option>
+</select>
+ 
+</div>
+
+
+
+
+
+<div class="form-floating mb-4 mt-5">
+<textarea id="query" class="form-control" style="height:140px"></textarea>
+<label for="query" >Your query...</label>
+
+</div>
+<div class="mb-4 text-center">
+<button type="submit" class="btn btn-secondary">Submit</button>
+
+</div>
+
+
+
+    </form>
+  </div>
+</div>
+
+</div>
+
+
+
+</section>
+
+<section class="bg-light">
+<div class="container">
+<div class="text-center">
+  <h2>Stay in the loop</h2>
+  <p class="lead">Get the latest episodes</p>
+</div>
+<div class="row justify-content-center">
+<div class="col-md-8 text-center">
+<p class="text-muted my-4"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, distinctio?</p>
+<button class="btn btn-primary" data-bs-toggle="modal" 
+data-bs-target="#reg-modal">Register for updates</button>
+</div>
+
+</div>
+</div>
+</section>
+
+ <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet.</p>
+          <label for="modal-email" class="form-label">Your email</label>
+          <input type="text" class="form-control" id="modal-email" placeholder="e.g. mario@example.com">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--OFFCANVAS -->
+ <div class="offcanvas offcanvas-top" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="sidebar-label">My Other Books</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <div class="dropdown mt-3">
+<button class="btn btn-secondary dropdown-toggle" type="button"
+id="book-dropdown" data-bs-toggle="dropdown"
+>choose a book title
+</button>
+<ul class="dropdown-menu" aria-labelledby="book-dropdown">
+<li><a href="#" class="dropdown-item">Become a React Superhero</a></li>
+<li><a href="#" class="dropdown-item">Conquering Vue.js</a></li>
+<li><a href="#" class="dropdown-item">Leveling your next.js</a></li>
+
+
+</ul>
+
+    </div>
+  </div>
+
+<!--OFFCANVAS -->
+
+
 
     <!-- Lesson 13 icons install cdn-->
 
@@ -195,5 +581,11 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+     <script>
+    const tooltips = document.querySelectorAll('.tt')
+    tooltips.forEach(t => {
+      new bootstrap.Tooltip(t)
+    })
+  </script>
   </body>
 </html>
