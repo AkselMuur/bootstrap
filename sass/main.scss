@@ -1,4 +1,22 @@
-$primary: #009900;
+$primary: #ec0909;
+$secondary: #2009ec;
+
+$light: #8ecc7a;
 $zindex-offcanvas: 1095;
+$headings-color:  #ec0909;
+$link-color:  #02ef0e;
+$text-muted:  #357638;
+
+
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+
+$custom-theme-colors:(
+    "altlight":#e7f65e,
+    "altdark":#ec920b
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
